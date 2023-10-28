@@ -121,7 +121,7 @@ const Home = () => {
                    
                     <h1 className='text-2xl font-light underline underline-offset-8 mb-2'>Contact Information:</h1>
                     <h3><span className='font-bold'>Email:</span> CodesphereAcademy@gmail.com</h3>
-                    <h3 className='mb-3'><span className='font-bold'>Phone:</span> +91-7999456558</h3>
+                    <h3 className='mb-3'><span className='font-bold'>Phone:</span> +91-9907839311, +91-7999456558</h3>
 
                     <h1 className='text-2xl font-light underline underline-offset-8 mb-2'>Office Hours:</h1>
                     <h3><span className='font-bold'>Mon - Fri:</span> 9.00 AM - 6.00 PM</h3>
