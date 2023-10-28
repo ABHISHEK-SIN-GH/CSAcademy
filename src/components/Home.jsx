@@ -98,7 +98,7 @@ const Home = () => {
                     <div className='my-1 md:my-2'></div>
                     <a class="rounded-lg bg-slate-800 text-slate-50 py-2 px-4 font-bold text-lg mt-5 inline md:w-1/2 text-center" href={brochureUrl} target='_blank'><DownloadIcon/> Download Brochure</a>
                 </div>
-                <div className='flex flex-col md:py-6 pt-16 basis-3/5'>
+                <div className='flex flex-col md:py-6 pt-16 basis-3/5' id="Courses">
                     <div className='flex flex-col md:flex-row gap-5'>
                         <CourseCard icon={<img src={dataAnalytics} alt="dataAnalytics" className='inline-block'/>} title={`Data Analytics Using Python`} duration={"2 Months"} project={"3+ Projects"} courseFee={"3999"} courseUrl={dataAnalyticsUrl}/>
                         <CourseCard icon={<img src={dataScience} alt="dataScience" className='inline-block'/>} title={"Data Science Using ML"} duration={"4 Months"} project={"5+ Projects"} courseFee={"6999"} courseUrl={dataScienceUrl}/>
