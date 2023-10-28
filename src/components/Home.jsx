@@ -27,7 +27,7 @@ import frontendUrl from '../docs/frontend.pdf';
 import backendUrl from '../docs/backend.pdf';
 import fullstackUrl from '../docs/fullstack.pdf';
 import appDevUrl from '../docs/appdev.pdf';
-import brochureUrl from '../docs/brochure.pdf';
+import brochureUrl from '../docs/codesphere-brochure.pdf';
 
 const Home = () => {
     return (
