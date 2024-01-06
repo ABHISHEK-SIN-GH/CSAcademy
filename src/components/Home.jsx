@@ -37,7 +37,7 @@ const Home = () => {
                     <h1 className='text-5xl font-bold text-left'>Welcome to <br /> <span className='md:underline font-thin text-4xl' style={{textUnderlineOffset:"1.5rem"}}>CodeSphere Academy</span></h1>
                     <div className='my-2 md:my-5'></div>
                     <h3 className='text-lg md:font-thin font-normal text-start md:text-xl'>Empowering your tech journey through hands-on courses, expert instructors, and career support. Join us to unlock your potential in development and data science.</h3>
-                    <span class="rounded-lg border-slate-800 border-2 py-2 px-4 font-normal text-lg mt-5 inline md:w-1/2 text-center">Courses Starts From <span className='text-orange-500 font-bold'>Rs. 3999/-</span></span>
+                    <span class="rounded-lg border-slate-800 border-2 py-2 px-4 font-normal text-lg mt-5 inline md:w-1/2 text-center">Courses Starts From <span className='text-orange-500 font-bold'>Rs. 6999/-</span></span>
                     <a class="rounded-lg bg-slate-800 text-slate-50 py-2 px-4 font-bold text-lg mt-5 inline md:w-1/2 text-center" href='https://forms.gle/ZM5ATo4eCCVvyM2J9' target='_blank'>Register Now</a>
                     <h3 className='font-semibold text-start text-xs mt-6 text-orange-500'><InfoIcon/> Pay only after satisfaction during the trial sessions.</h3>
                 </div>
@@ -100,16 +100,16 @@ const Home = () => {
                 </div>
                 <div className='flex flex-col md:py-6 pt-16 basis-3/5' id="Courses">
                     <div className='flex flex-col md:flex-row gap-5'>
-                        <CourseCard icon={<img src={dataAnalytics} alt="dataAnalytics" className='inline-block'/>} title={`Data Analytics Using Python`} duration={"2 Months"} project={"3+ Projects"} courseFee={"3999"} courseUrl={dataAnalyticsUrl}/>
-                        <CourseCard icon={<img src={dataScience} alt="dataScience" className='inline-block'/>} title={"Data Science Using ML"} duration={"4 Months"} project={"5+ Projects"} courseFee={"6999"} courseUrl={dataScienceUrl}/>
+                        <CourseCard icon={<img src={dataAnalytics} alt="dataAnalytics" className='inline-block'/>} title={`Data Analytics Using Python`} duration={"2 Months"} project={"3+ Projects"} courseFee={"6999"} courseUrl={dataAnalyticsUrl}/>
+                        <CourseCard icon={<img src={dataScience} alt="dataScience" className='inline-block'/>} title={"Data Science Using ML"} duration={"3 Months"} project={"5+ Projects"} courseFee={"11999"} courseUrl={dataScienceUrl}/>
                     </div>
                     <div className='flex flex-col md:flex-row gap-5 mt-5'>
-                        <CourseCard icon={<img src={frontend} alt="frontend" className='inline-block'/>} title={"Frontend Development"} duration={"2 Months"} project={"3+ Projects"} courseFee={"4999"} courseUrl={frontendUrl}/>
-                        <CourseCard icon={<img src={backend} alt="backend" className='inline-block'/>} title={"Backend Development"} duration={"4 Months"} project={"5+ Projects"} courseFee={"8999"} courseUrl={backendUrl}/>
+                        <CourseCard icon={<img src={frontend} alt="frontend" className='inline-block'/>} title={"Frontend Development"} duration={"2 Months"} project={"3+ Projects"} courseFee={"6999"} courseUrl={frontendUrl}/>
+                        <CourseCard icon={<img src={backend} alt="backend" className='inline-block'/>} title={"Backend Development"} duration={"3 Months"} project={"5+ Projects"} courseFee={"11999"} courseUrl={backendUrl}/>
                     </div>
                     <div className='flex flex-col md:flex-row gap-5 mt-5'>
-                        <CourseCard icon={<img src={fullstack} alt="fullstack" className='inline-block'/>} title={"Fullstack Development"} duration={"6 Months"} project={"8+ Projects"} courseFee={"12999"} courseUrl={fullstackUrl}/>
-                        <CourseCard icon={<img src={mobileAppDev} alt="mobileAppDev" className='inline-block'/>} title={"Mobile App Development"} duration={"6 Months"} project={"8+ Projects"} courseFee={"19999"} courseUrl={appDevUrl}/>
+                        <CourseCard icon={<img src={fullstack} alt="fullstack" className='inline-block'/>} title={"Fullstack Development"} duration={"4 Months"} project={"8+ Projects"} courseFee={"16999"} courseUrl={fullstackUrl}/>
+                        <CourseCard icon={<img src={mobileAppDev} alt="mobileAppDev" className='inline-block'/>} title={"Mobile App Development"} duration={"4 Months"} project={"8+ Projects"} courseFee={"19999"} courseUrl={appDevUrl}/>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@ const Home = () => {
                    
                     <h1 className='text-2xl font-light underline underline-offset-8 mb-2'>Contact Information:</h1>
                     <h3><span className='font-bold'>Email:</span> CodesphereAcademy@gmail.com</h3>
-                    <h3 className='mb-3'><span className='font-bold'>Phone:</span> +91-9907839311, +91-7999456558</h3>
+                    <h3 className='mb-3'><span className='font-bold'>Phone:</span> +91-7999456558, +91-8962522717</h3>
 
                     <h1 className='text-2xl font-light underline underline-offset-8 mb-2'>Office Hours:</h1>
                     <h3><span className='font-bold'>Mon - Fri:</span> 9.00 AM - 6.00 PM</h3>
