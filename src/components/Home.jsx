@@ -6,6 +6,7 @@ import dataScience from '../assets/data-science.png';
 import frontend from '../assets/frontend.png';
 import backend from '../assets/backend.png';
 import fullstack from '../assets/fullstack.png';
+import modern from '../assets/modern.png';
 import mobileAppDev from '../assets/mobile-app-dev.png';
 
 import Card from './Card';
@@ -27,6 +28,7 @@ import frontendUrl from '../docs/frontend.pdf';
 import backendUrl from '../docs/backend.pdf';
 import fullstackUrl from '../docs/fullstack.pdf';
 import appDevUrl from '../docs/appdev.pdf';
+import modernUrl from '../docs/modern-development.pdf';
 import brochureUrl from '../docs/codesphere-brochure.pdf';
 
 const Home = () => {
@@ -99,17 +101,20 @@ const Home = () => {
                     <a class="rounded-lg bg-slate-800 text-slate-50 py-2 px-4 font-bold text-lg mt-5 inline md:w-1/2 text-center" href={brochureUrl} target='_blank'><DownloadIcon/> Download Brochure</a>
                 </div>
                 <div className='flex flex-col md:py-6 pt-16 basis-3/5' id="Courses">
-                    <div className='flex flex-col md:flex-row gap-5'>
-                        <CourseCard icon={<img src={dataAnalytics} alt="dataAnalytics" className='inline-block'/>} title={`Data Analytics Using Python`} duration={"2 Months"} project={"3+ Projects"} courseFee={"6999"} courseUrl={dataAnalyticsUrl}/>
-                        <CourseCard icon={<img src={dataScience} alt="dataScience" className='inline-block'/>} title={"Data Science Using ML"} duration={"3 Months"} project={"5+ Projects"} courseFee={"11999"} courseUrl={dataScienceUrl}/>
+                    <div className='flex flex-col justify-center md:flex-row gap-5'>
+                        <CourseCard icon={<img src={dataAnalytics} alt="Data Analytics" className='inline-block'/>} title={`Data Analytics Using Python`} duration={"2 Months"} project={"3+ Projects"} courseFee={"6999"} courseUrl={dataAnalyticsUrl}/>
+                        <CourseCard icon={<img src={dataScience} alt="Data Science" className='inline-block'/>} title={"Data Science Using ML"} duration={"2 Months"} project={"5+ Projects"} courseFee={"11999"} courseUrl={dataScienceUrl}/>
                     </div>
-                    <div className='flex flex-col md:flex-row gap-5 mt-5'>
-                        <CourseCard icon={<img src={frontend} alt="frontend" className='inline-block'/>} title={"Frontend Development"} duration={"2 Months"} project={"3+ Projects"} courseFee={"6999"} courseUrl={frontendUrl}/>
-                        <CourseCard icon={<img src={backend} alt="backend" className='inline-block'/>} title={"Backend Development"} duration={"3 Months"} project={"5+ Projects"} courseFee={"11999"} courseUrl={backendUrl}/>
+                    <div className='flex flex-col justify-center md:flex-row gap-5 mt-5'>
+                        <CourseCard icon={<img src={frontend} alt="Frontend Development" className='inline-block'/>} title={"Frontend Development"} duration={"2 Months"} project={"3+ Projects"} courseFee={"6999"} courseUrl={frontendUrl}/>
+                        <CourseCard icon={<img src={backend} alt="Backend Development" className='inline-block'/>} title={"Backend Development"} duration={"2 Months"} project={"5+ Projects"} courseFee={"11999"} courseUrl={backendUrl}/>
                     </div>
-                    <div className='flex flex-col md:flex-row gap-5 mt-5'>
-                        <CourseCard icon={<img src={fullstack} alt="fullstack" className='inline-block'/>} title={"Fullstack Development"} duration={"4 Months"} project={"8+ Projects"} courseFee={"16999"} courseUrl={fullstackUrl}/>
-                        <CourseCard icon={<img src={mobileAppDev} alt="mobileAppDev" className='inline-block'/>} title={"Mobile App Development"} duration={"4 Months"} project={"8+ Projects"} courseFee={"19999"} courseUrl={appDevUrl}/>
+                    <div className='flex flex-col justify-center md:flex-row gap-5 mt-5'>
+                        <CourseCard icon={<img src={fullstack} alt="Fullstack Development" className='inline-block'/>} title={"Fullstack Development"} duration={"2 Months"} project={"8+ Projects"} courseFee={"16999"} courseUrl={fullstackUrl}/>
+                        <CourseCard icon={<img src={mobileAppDev} alt="Mobile App Development" className='inline-block'/>} title={"Mobile App Development"} duration={"2 Months"} project={"8+ Projects"} courseFee={"19999"} courseUrl={appDevUrl}/>
+                    </div>
+                    <div className='flex flex-col justify-center md:flex-row gap-5 mt-5'>
+                        <CourseCard icon={<img src={modern} alt="Modern Development" className='inline-block'/>} title={"Modern Development"} duration={"3 Months"} project={"6+ Projects"} courseFee={"24999"} courseUrl={modernUrl}/>
                     </div>
                 </div>
             </div>

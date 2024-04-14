@@ -6,7 +6,7 @@ import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 import InfoIcon from '@mui/icons-material/Info';
 const CourseCard = ({icon,title,duration,project,courseFee,courseUrl}) => {
     return (
-        <div className='w-full rounded-lg p-6 bg-slate-200 border-slate-800' style={{border:"1px solid"}}>
+        <div className='w-full sm:w-96 rounded-lg p-6 bg-slate-200 border-slate-800' style={{border:"1px solid"}}>
             <h1 className='font-bold text-2xl flex flex-row justify-between items-center'>
                 <span className='basis-2/3'>
                     {title}
